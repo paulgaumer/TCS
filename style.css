@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 21px;
+  font-weight: lighter;
+}
+
+#logo {
+  width: 230px;
+  margin-top: 20px;
+}
+
+.wrapper {
+  background-image: url("background.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding: 50px 60px;;
+}
+
+.link {
+  margin-top: 50px;
+}
+
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 60px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 21px;
+  margin-top: 60px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border: solid black 2px;
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-size: 18px;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
